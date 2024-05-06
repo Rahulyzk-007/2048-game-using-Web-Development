@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2048.css">
+    <title>2048 GAME</title>
+</head>
+<body onload="load();" >
+    <div>
+        <select name="color" id="colorSelector" onchange="colorS();">
+            <option value="color">select theme</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="red">red</option>
+            <option value="dark">dark</option>
+        </select>
+        <h1 id="h1" >2048 GAME</h1>
+        <h3 id="h3">Join The Titles Get to 2048!</h3>
+        <a id="ins" href="#instructions">How To Play &rarr;</a>
+        <br>
+        <button id="start_game" onclick="fun_start();">NEW GAME</button>
+    </div>
+    <section>
+        <div id="ur_score_display">
+            <p id="ur_score">SCORE:<p id="score"></p></p>
+            <nobr></nobr>
+        </div>
+        <div id="high_score_display">
+            <p id="highscore">BEST:<p id="high_score"></p></p>
+        </div>
+    </section>
+    <section>
+        <div id="top">
+            <button id="top_button" onclick="fun_up();">&uarr;</button>
+        </div>
+        <div id="left">
+            <button id="left_button" onclick="fun_left();">&larr;</button>
+        </div>
+        <div id="right">
+            <button id="right_button" onclick="fun_right();">&rarr;</button>
+        </div>
+        <div id="bottom">
+            <button id="bottom_button" onclick="fun_bottom();">&darr;</button>
+        </div>
+    </section>
+    <section id="table">
+        
+        <div id="row1">
+            <button id="b11"></button>
+            <button id="b12"></button>
+            <button id="b13"></button>
+            <button id="b14"></button>
+        </div>
+        <div id="row2">
+            <button id="b21"></button>
+            <button id="b22"></button>
+            <button id="b23"></button>
+            <button id="b24"></button>
+        </div>
+        <div id="row3">
+            <button id="b31"></button>
+            <button id="b32"></button>
+            <button id="b33"></button>
+            <button id="b34"></button>
+        </div>
+        <div id="row4">
+            <button id="b41"></button>
+            <button id="b42"></button>
+            <button id="b43"></button>
+            <button id="b44"></button>
+        </div>
+    </section>
+    <section>
+        <div id="">
+            <p id="instructions">
+                <span id="htp">How To Play:</span><br>
+                Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch.
+                <br>Add them up to reach 2048!<a id="pn" href="#h1">Play Now &#8672;</a>
+            </p>
+        </div>
+    </section>
+    <script src="2048.js">
+    </script>
+</body>
+</html>

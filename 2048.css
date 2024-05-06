@@ -1,0 +1,277 @@
+body{
+    background-color: #FAF8EF;
+}
+#h1{
+    margin-left: 38%;
+    font: italic;
+    margin-top:0px;
+    width:500px;
+    font-size:60px;
+    font-weight: bold;
+    color:#CC7722;
+}
+#h3{
+    margin-left: 40%;
+    margin-top:-30px;
+    color: rgb(100, 85, 56);
+}
+#ur_score{
+    margin-top: 10px;
+    padding-top:10px;
+    color:white;
+    font-weight: bold;;
+    padding-left:26px;
+}
+#score{
+    font-size: 140%;
+    color:white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-top:-7px;
+    text-align: center;
+    padding-left:22px;
+}
+#highscore{   
+    padding-top:7px;
+    padding-left: 25px;;
+    margin-left:-10px;
+    width:80px;
+    font-weight: bold;
+    color:white;
+    padding-left:36px;
+    text-align: center;
+}
+#high_score{
+    margin-top:-7px;
+    height:50px;
+    color:white;
+    text-align: center;
+    font-size: 160%;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+    font-weight: bold;
+    padding-left:17px;
+}
+#colorSelector{
+    margin-left:92%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#32200e;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+#ins{
+    margin-left:45%;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    color: #8F7A66;
+}
+#ur_score_display{
+    margin-top:60px;
+    margin-left:200px;
+    width:110px;
+    height:70px;
+    padding-left:10px ;
+    padding-right:30px ;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #BBADA0;
+}
+#start_game {
+    margin-top: 50px;
+    margin-left: 208px;
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #8F7A66;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border: none;
+    color:white;
+    font-size:110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#high_score_display{
+    margin-left:200px;
+    margin-top:20px;
+    border-radius: 10px;
+    width: 110px;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: #BBADA0;
+}
+#htp{
+    font-size: 120%;
+    text-decoration: underline;
+    color: #8F7A66;
+}
+#instructions{
+    margin-top:1000px;
+    margin-left:30px;
+    font-size:120%;
+    color:#8F7A66;
+}
+#pn{
+    color: #8F7A66;
+    margin-left:474px;
+}
+#row1 {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    border: 1px solid #BBADA0;
+}
+#row2{
+    position: absolute;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    margin-top:50px;
+    color:white;
+    background-color: white;
+    border: 1px solid #BBADA0;
+}
+#row3{
+    position: absolute;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    margin-top: 150px;
+    border: 1px solid #BBADA0;
+}
+#row4{
+    position: absolute;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    margin-top: 250px;
+    border: 1px solid #BBADA0;
+}
+#top{
+    size:150%;
+    margin-top: -350px;
+    margin-left: 580px;
+    margin-bottom: 40px;
+}
+#top_button{
+    border: none;
+    width:50px;
+    height: 50px;
+    background-color: #8F7A66;
+    color:white;
+    font-size: 140%;
+    border-radius: 30%;
+    margin-left:14%;
+    margin-bottom:50px;
+    cursor: pointer;
+}
+#left_button{
+    width: 50px;
+    height: 50px;
+    background-color: #8F7A66;
+    border-radius: 30%;
+    border: none;
+    color: white;
+    font-size: 140%;
+    position:absolute;
+    margin-top:150px;
+    margin-right:200px;
+    margin-left: 29%;
+    cursor: pointer;
+}
+#right_button{
+    width: 50px;
+    height: 50px;
+    background-color: #8F7A66;
+    border: none;
+    color: white;
+    font-size: 140%;
+    border-radius: 30%;
+    position: absolute;
+    margin-top:150px;
+    margin-left:65%;
+    cursor: pointer;
+}
+#bottom_button{
+    width: 50px;
+    height: 50px;
+    background-color: #8F7A66;
+    border-radius: 30%;
+    border: none;
+    color: white;
+    font-size: 140%;
+    position: absolute;
+    margin-top:400px;
+    margin-left: 47%;
+    cursor: pointer;
+}
+#b11,#b21,#b31,#b41{
+    font-size: 35px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #8F7A66;
+    font-weight: bold;
+    width:110px;
+    height:110px;
+    padding: 0px;
+    background-color: #EEE4DA;
+    border: 12px solid #BBADA0;
+}
+#b12,#b22,#b32,#b42{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    color: #8F7A66;
+    width: 110px;
+    height: 110px;
+    margin-left:100px;
+    padding: 0px;
+    background-color: #EEE4DA;
+    border: 12px solid #BBADA0;
+}
+#b13,#b23,#b33,#b43{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #8F7A66;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    margin-left:200px;
+    padding: 0px;
+    background-color: #EEE4DA;
+    border: 12px solid #BBADA0;
+}
+#b14,#b24,#b34,#b44{
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    color: #8F7A66;
+    background-color: #EEE4DA;
+    padding: 0px;
+    width: 110px;
+    height: 110px;
+    margin-left:300px;
+    border: 12px solid #BBADA0;
+}
+#b11{
+    border-top-left-radius: 7px;
+}
+#b41{
+    border-bottom-left-radius: 7px;
+}
+#b14{
+    border-top-right-radius: 7px;
+}
+#b44{
+    border-bottom-right-radius: 7px;;
+}
